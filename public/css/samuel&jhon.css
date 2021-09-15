@@ -1,0 +1,20 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+div{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+input{
+    padding: 2% 20%;
+    border-radius: 10px;
+    text-align: center;
+    display: list-item;
+}
+button{
+    position: absolute;
+    left: 35%;
+}

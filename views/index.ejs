@@ -1,0 +1,47 @@
+<%- include("cabeceras/index") %>
+<body>
+    <!-- VertexShader code here -->
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <span class="navbar-brand mb-0 h3">Videojuegos Tecla.com</span>
+      </nav>
+    <div class="contenedor">        
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="mb-4" src="/assets/listar.png" alt="" width="96" height="96">
+                    <div class="card-body">
+                        <a href="#" onclick="listar()" class="btn btn-primary">Listar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="mb-4" src="/assets/add.png" alt="" width="96" height="96">
+                    <div class="card-body">
+                        <a href="#"  onclick="alta()" class="btn btn-primary">Alta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="mb-4" src="/assets/update.png" alt="" width="96" height="96">
+                    <div class="card-body">
+                        <a href="#"  onclick="modificar()" class="btn btn-primary">Modificar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="mb-4" src="/assets/delete.png" alt="" width="96" height="96">
+                    <div class="card-body">
+                        <a href="#"  onclick="eliminar()" class="btn btn-primary">Eliminar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
